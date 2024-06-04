@@ -1,0 +1,172 @@
+body{
+    background-color: rgb(20, 53, 85);
+}
+
+
+*{
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+
+.container1{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(234, 235, 244);
+    position: fixed;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+}
+
+.elements a{
+   margin-right: 50px;
+   text-decoration: none;
+   color: rgb(76, 75, 75);
+   font-weight: 600;
+   font-size: 16px;
+}
+
+.processcard{
+height: 600px;
+width: 600px;
+
+}
+
+.processcard img{
+    height: 600px;
+    width: 600px;
+    margin-top: 150px;
+}
+
+#cp{
+    font-size: 60px;
+    color: rgb(56, 147, 147);
+    margin-left: 631px;
+    margin-top: -260px;
+}
+
+#ll{
+    color: rgb(76, 75, 75);
+}
+
+#sm{
+    color: rgb(76, 75, 75);
+    margin-left: 631px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.get
+{
+    margin-left:631px ;
+    margin-top: 25px;
+    height: 60px;
+    width: 200px;
+    color: rgb(76, 75, 75);
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    
+
+}
+
+.get i{
+    margin-left: 10px;
+}
+
+.list-group-item:hover{
+    background-color:  #389393;
+
+}
+
+
+.container2{
+    display: flex;
+}
+
+.b1{
+    width: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style the button */
+#scrollToTopBtn {
+     /* Hidden by default */
+     display: none;
+    position: fixed; /* Fixed position at bottom right */
+    bottom: 20px;
+    right: 20px;
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #555; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+/* Hover effect */
+#scrollToTopBtn:hover {
+    background-color: rgb(56, 147, 147); /* Add a dark-grey background on hover */
+}
+
+/* Style the card container */
+.card-container {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent line break for cards */
+    scroll-behavior: smooth; /* Smooth scrolling effect */
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Style the cards */
+.card {
+    display: inline-block;
+  
+   
+}
+
+/* Style the scroll button */
+#scrollRightBtn {
+    position: fixed;
+    bottom: 200px;
+    right: 20px;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+/* Hover effect */
+#scrollRightBtn:hover {
+    background-color: #333;
+}
+
